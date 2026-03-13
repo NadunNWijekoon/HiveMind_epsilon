@@ -1,5 +1,5 @@
 {
-  "name": "HiveMind [ver.alpha]",
+  "name": "HiveMind [ver.EPSILON]",
   "version": "0.1.0",
   "main": "main.js",
   "private": true,
@@ -7,10 +7,17 @@
     "dev": "next dev --turbopack -p 9002",
     "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
     "genkit:watch": "genkit start -- tsx --watch src/ai/dev.ts",
-    "build": "cross-env NODE_ENV=production next build",
-    "start": "next start",
+    "build": "electron-builder",
+    "start": "electron .",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
+  },
+  "build": {
+    "appId": "com.hivemind.app",
+    "productName": "HiveMind [ver.EPSILON]",
+    "win": {
+      "target": "nsis"
+    },
   },
   "dependencies": {
     "@genkit-ai/google-genai": "^1.28.0",
