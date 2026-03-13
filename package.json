@@ -1,5 +1,5 @@
 {
-  "name": "HiveMind [ver.EPSILON]",
+  "name": "hivemind-epsilon",
   "version": "0.1.0",
   "main": "main.js",
   "private": true,
@@ -17,7 +17,7 @@
     "productName": "HiveMind [ver.EPSILON]",
     "win": {
       "target": "nsis"
-    },
+    }
   },
   "dependencies": {
     "@genkit-ai/google-genai": "^1.28.0",
