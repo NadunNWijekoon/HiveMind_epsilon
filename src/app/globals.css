@@ -1,0 +1,65 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 35 25% 96%; /* #F5F3F0 - Serene Off-white */
+    --foreground: 20 10% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 10%;
+    --primary: 35 60% 45%; /* #B87E2E - Earthy Gold */
+    --primary-foreground: 35 10% 98%;
+    --secondary: 35 20% 90%;
+    --secondary-foreground: 35 60% 45%;
+    --muted: 35 15% 92%;
+    --muted-foreground: 35 10% 40%;
+    --accent: 5 65% 60%; /* #E05E52 - Soft Coral */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 35 20% 88%;
+    --input: 35 20% 88%;
+    --ring: 35 60% 45%;
+    --radius: 0.75rem;
+    --chart-1: 35 60% 45%;
+    --chart-2: 5 65% 60%;
+    --chart-3: 160 60% 45%;
+    --chart-4: 200 60% 45%;
+    --chart-5: 280 60% 45%;
+  }
+
+  .dark {
+    --background: 20 10% 4%;
+    --foreground: 0 0% 98%;
+    --card: 20 10% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 20 10% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 35 60% 55%;
+    --primary-foreground: 35 10% 10%;
+    --secondary: 35 20% 15%;
+    --secondary-foreground: 35 60% 55%;
+    --muted: 35 15% 15%;
+    --muted-foreground: 35 10% 65%;
+    --accent: 5 65% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 35 20% 15%;
+    --input: 35 20% 15%;
+    --ring: 35 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+}

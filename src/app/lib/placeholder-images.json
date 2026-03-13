@@ -1,0 +1,17 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-beehive",
+      "description": "A wooden beehive in a sunny meadow",
+      "imageUrl": "https://picsum.photos/seed/hive1/1200/600",
+      "imageHint": "beehive meadow"
+    },
+    {
+      "id": "bee-close-up",
+      "description": "Close up of bees on a honeycomb",
+      "imageUrl": "https://picsum.photos/seed/bees2/800/600",
+      "imageHint": "honeybee honeycomb"
+    }
+  ]
+}
