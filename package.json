@@ -17,7 +17,8 @@
     "productName": "HiveMind [ver.EPSILON]",
     "win": {
       "target": "nsis"
-    }
+    },
+    "nsis": {}
   },
   "dependencies": {
     "@genkit-ai/google-genai": "^1.28.0",
