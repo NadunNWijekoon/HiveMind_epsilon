@@ -17,8 +17,7 @@
     "productName": "HiveMind [ver.EPSILON]",
     "win": {
       "target": "nsis"
-    },
-    "nsis": {}
+    }
   },
   "dependencies": {
     "@genkit-ai/google-genai": "^1.28.0",
@@ -69,6 +68,7 @@
     "@types/react-dom": "^19.2.1",
     "cross-env": "^10.1.0",
     "electron": "^41.0.1",
+    "electron-builder": "^24.6.0",
     "electron-packager": "^17.1.2",
     "genkit-cli": "^1.28.0",
     "postcss": "^8",
